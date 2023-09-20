@@ -1,7 +1,137 @@
-body{
-    background-image: url(/img/bg.png);
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p, a{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+}
+
+.logo{
+    width: 300px;
+}
+
+#sec1{
+    padding: 2% 8% 0 8%;
+    background-color: #27167A;
+    height: 768px;
+
+    color: #f6f6f6;
+}
+
+#telaInicial{
+    display: flex;
+    justify-content: space-between;
+}
+
+#telaInicial>div>h1{
+    font-size: 4em;
+}
+
+.button{
+    background-color: #E06631;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2%;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 150px;
+    box-shadow: 0px 5px 8px -3px rgba(0,0,0,0.75);
+
+    font-size: 1.5em;
+}
+
+.button>img{
+    height: 29px;
+}
+
+a{
+    text-decoration: none;
+    color: #f6f6f6;
+}
+
+#sec2{
+    padding: 0 8% 0 8%;
+    background-color: #E06631;
+    height: 768px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sec2>div{
+    background-color: #f6f6f6;
+    padding: 2%;
+    width: 280px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+
+    font-size: 1.05em;
+    text-align: center;
+}
+
+
+.tools{
+    width: 150px;
+}
+
+#sec3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #27167A;
+    height: 768px;
+
+    color: #f6f6f6;
+    text-align: center;
+}
+
+#slider{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.telaPonta{
+    height: 340px;
+    opacity: 70%;
+}
+
+.telaMeio{
+    height: 400px;
+    opacity: 80%;
+}
+
+.telaPrincipal{
+    height: 460px;
 }
 
 footer{
+    padding: 0 8% 0 8%;
     background-color: #1D0D6D;
+    height: 200px;
+}
+
+.footerInfo{
+    padding: 3% 0 2% 0;
+    color: #f6f6f6;
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+hr{
+    border-color: #E06631;
 }
