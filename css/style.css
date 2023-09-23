@@ -9,7 +9,7 @@
     justify-content: center;
     margin: 40px;
 }
-h1, h2, p, a{
+h1, h2, p, a, #titulo-cabecario{
     font-family: 'Varela Round', sans-serif;
     font-weight: 400;
 }
@@ -19,7 +19,12 @@ h1, h2, p, a{
     margin-left: 200px;*/
 }
 
+#titulo-cabecario {
+    font-size: 50px;
+}
+
 .logo{
+    width: 100%;
     max-width: 400px;
 }
 
@@ -48,7 +53,7 @@ h1, h2, p, a{
     align-items: center;
     justify-content: space-around;
     padding: 2%;
-    margin-top: 20px;
+    margin: 20px 0;
     border-radius: 15px;
     width: 150px;
     box-shadow: 0px 5px 8px -3px rgba(0,0,0,0.75);
@@ -62,18 +67,17 @@ h1, h2, p, a{
 
 a{
     text-decoration: none;
-    color: #f6f6f6;
-    width: 180px;
-    
+    color: #f6f6f6; 
 }
 
 #sec2{
     padding: 0 8% 0 8%;
     background-color: #E06631;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 #sec2>div{
@@ -86,7 +90,7 @@ a{
     align-items: center;
     justify-content: center;
     border-radius: 25px;
-
+    margin: 12px;
     font-size: 1.05em;
     text-align: center;
 }
@@ -138,7 +142,6 @@ a{
 footer{
     padding: 0 8% 0 8%;
     background-color: #1D0D6D;
-    height: 200px;
 }
 
 .footerInfo{
@@ -156,6 +159,6 @@ hr{
 }
 
 #inicial{
-width: 400px;
-height: 650px;
+width: 100%;
+max-width: 350px;
 margin-right: 200px;}
