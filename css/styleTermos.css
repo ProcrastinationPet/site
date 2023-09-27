@@ -26,8 +26,7 @@ h2 {
   padding-bottom: 2px;
 }
 
-p,
-a {
+p, a {
   font-family: "Varela Round", sans-serif;
   font-weight: 400;
   color: black;
@@ -66,10 +65,6 @@ a {
   flex-direction: column;
 }
 
-#telaInicial > div > h1 {
-  font-size: 4em;
-}
-
 .button {
   background-color: #e06631;
   display: flex;
@@ -95,7 +90,7 @@ a {
 
 footer {
   padding: 0 8% 0 8%;
-  background-color: #27167a;
+  background-color: #1D0D6D;
   max-height: 700px;
 }
 
@@ -108,13 +103,9 @@ footer {
   justify-content: space-between;
 }
 
-.footerInfo2 > p {
+.footerInfo > p,.footerInfo2 > p {
   color: #f6f6f6;
   font-size: 15px;
-}
-
-.footerInfo > p {
-  color: #f6f6f6;
 }
 
 .footerInfo2 {
@@ -125,20 +116,18 @@ footer {
   justify-content: space-between;
 }
 
+#link {
+  font-size: 16px;
+}
+
 hr {
   border-color: #e06631;
 }
 
 @media (max-width: 760px) {
   .button {
-    background-color: #e06631;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 6%;
     border-radius: 11px;
     width: 130px;
-    box-sizing: border-box;
     box-shadow: 0px 5px 8px -4px rgba(0, 0, 0, 0.75);
     margin-bottom: 8px;
     font-size: 18px;
@@ -150,7 +139,6 @@ hr {
 
   footer {
     padding: 0 8% 0 8%;
-    background-color: #27167a;
     height:fit-content;
     max-height: 700px;
   }
@@ -184,10 +172,6 @@ hr {
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
-  }
-
-  hr {
-    border-color: #e06631;
   }
 
   .logo {
